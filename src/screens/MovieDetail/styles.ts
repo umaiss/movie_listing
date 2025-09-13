@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     primaryButton: {
         width: width(65),
         backgroundColor: Theme.color.COLOR_PRIMARY_BUTTON,
-        paddingVertical: height(2.2),
+        paddingVertical: height(1.7),
         borderRadius: 12,
         alignItems: "center",
     },
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         width: width(65),
         borderWidth: 1,
         borderColor: Theme.color.COLOR_PRIMARY_BUTTON,
-        paddingVertical: height(2.2),
+        paddingVertical: height(1.7),
         borderRadius: 12,
         alignItems: "center",
     },
