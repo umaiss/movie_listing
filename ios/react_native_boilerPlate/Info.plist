@@ -56,6 +56,11 @@
 		<string>Nunito-ExtraBold.ttf</string>
 		<string>Nunito-Medium.ttf</string>
 		<string>Nunito-Regular.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-ExtraBold.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string/>

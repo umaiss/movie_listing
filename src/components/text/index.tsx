@@ -33,7 +33,7 @@ export const LargeText: React.FC<CommonTextProps> = ({
   textAlign = 'auto',
   textProps,
   onPress,
-  fontFamily = Theme.fonts.FONT_NUNITO_EXTRABOLD,
+  fontFamily = Theme.fonts.FONT_POPPINS_SEMIBOLD,
 }) => {
   const styles = StyleSheet.create({
     text: {
@@ -61,7 +61,7 @@ export const MediumText: React.FC<CommonTextProps> = ({
   textStyles,
   textProps,
   onPress,
-  fontFamily = Theme.fonts.FONT_NUNITO_MEDIUM,
+  fontFamily = Theme.fonts.FONT_POPPINS_MEDIUM,
 }) => {
   const styles = StyleSheet.create({
     text: {
@@ -89,7 +89,7 @@ export const SmallText: React.FC<CommonTextProps> = ({
   textStyles,
   textProps,
   onPress,
-  fontFamily = Theme.fonts.FONT_NUNITO_REGULAR,
+  fontFamily = Theme.fonts.FONT_POPPINS_REGULAR,
 }) => {
   const styles = StyleSheet.create({
     text: {
@@ -118,7 +118,7 @@ export const UnderLineText: React.FC<UnderlineTextProps> = ({
   textProps,
   onPress,
   textDecorationLine = 'underline',
-  fontFamily = Theme.fonts.FONT_NUNITO_REGULAR,
+  fontFamily = Theme.fonts.FONT_POPPINS_MEDIUM,
 }) => {
   const styles = StyleSheet.create({
     text: {

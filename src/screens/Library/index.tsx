@@ -1,7 +1,7 @@
 import { Text, View } from 'react-native'
 import React from 'react'
 
-function Settings() {
+function Library() {
     return (
         <View>
             <Text>Home</Text>
@@ -9,5 +9,5 @@ function Settings() {
     )
 }
 
-export default Settings
+export default Library
 

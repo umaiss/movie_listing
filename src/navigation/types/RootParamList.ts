@@ -1,12 +1,14 @@
 export type RootStackParamList = {
     MainTabs: undefined;
-    Profile: { userId: string };
-    Settings: undefined;
+    MovieDetail: { id: number };
+    VideoScreen: { id: string };
+    SeatBooking: { videoUrl: string; movieTitle?: string };
+    SeatBookingDetail: { movieTitle: string; showTime: string; hall: string; date: string };
 };
 
 export type BottomTabParamList = {
-    Home: undefined;
-    Search: undefined;
-    Notifications: undefined;
-    Profile: undefined;
+    Dashboard: undefined;
+    Watch: undefined;
+    Library: undefined;
+    More: undefined;
 };

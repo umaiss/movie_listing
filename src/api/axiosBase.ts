@@ -20,10 +20,10 @@ axiosInstance.interceptors.request.use(
 
 axiosInstance.interceptors.response.use(
     (response) => response,
-    (error) => 
+    (error) => {
         // Here you can refresh token if needed
-         Promise.reject(error)
-    
+        return Promise.reject(error);
+    }
 );
 
 export default axiosInstance;

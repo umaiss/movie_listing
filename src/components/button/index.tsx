@@ -40,22 +40,22 @@ const Button: React.FC<ButtonProps> = ({
   textProps = {},
   disabled = false,
   buttonTextColor = Theme.color.COLOR_WHITE,
-  fontFamily = Theme.fonts.FONT_NUNITO_MEDIUM,
+  fontFamily = Theme.fonts.FONT_POPPINS_MEDIUM,
   size = 4.5,
   isLoading = false,
   ActivityIndicatorColor = Theme.color.COLOR_WHITE
 }) => {
   const getStyles = useMemo(() => ({
-      container: {
-        ...styles.container,
-        ...(disabled
-          ? styles.disableContainer
-          : variant === 'primary'
-            ? styles.primaryContainer
-            : styles.secondaryContainer),
-        ...(withShadow && styles.shadow),
-      },
-    }), [variant, withShadow, disabled]);
+    container: {
+      ...styles.container,
+      ...(disabled
+        ? styles.disableContainer
+        : variant === 'primary'
+          ? styles.primaryContainer
+          : styles.secondaryContainer),
+      ...(withShadow && styles.shadow),
+    },
+  }), [variant, withShadow, disabled]);
 
   return (
     <TouchableOpacity
